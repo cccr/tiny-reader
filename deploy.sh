@@ -11,7 +11,7 @@ fi
 HOST="${HOST:?set HOST=user@host in deploy.env (see deploy.env.example)}"
 DIR="${DIR:-tiny-reader}"
 
-FILES="go.mod main.go index.html Dockerfile docker-compose.yml .env.example README.md"
+FILES="go.mod main.go index.html icon.svg favicon.png apple-touch-icon.png Dockerfile docker-compose.yml .env.example README.md"
 if [ -f .env ]; then
   FILES="$FILES .env"
 fi

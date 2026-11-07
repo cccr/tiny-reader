@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Tiny Reader</title>
+  <rect width="512" height="512" rx="112" fill="#111418"/>
+  <!-- single-storey "a", the shape early readers learn -->
+  <circle cx="196" cy="262" r="78" fill="none" stroke="#f4f1e8" stroke-width="44"/>
+  <line x1="274" y1="184" x2="274" y2="340" stroke="#f4f1e8" stroke-width="44" stroke-linecap="round"/>
+  <!-- the blinking cursor from the screen -->
+  <rect x="318" y="326" width="98" height="36" rx="18" fill="#f2c14e"/>
+</svg>
