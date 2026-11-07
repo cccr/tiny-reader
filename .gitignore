@@ -1,0 +1,5 @@
+.env
+deploy.env
+ha/tiny_reader_script.yaml
+tiny-reader
+.DS_Store

@@ -1,0 +1,11 @@
+sequence:
+  - action: webostv.command
+    data:
+      entity_id: media_player.your_lg_tv
+      command: system.launcher/open
+      payload:
+        target: http://your-server:3040
+
+alias: tiny_reader
+description: Open Tiny Reader in the LG browser
+icon: mdi:book-open-variant

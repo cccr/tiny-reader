@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  tiny-reader:
+    build: .
+    ports:
+      - "3040:8080"
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - ANTHROPIC_MODEL=${ANTHROPIC_MODEL:-claude-haiku-5-5}
+    restart: unless-stopped
